@@ -73,6 +73,17 @@ footer p {
     outline: none;
 }
 
+form.edit-note input,
+form.edit-note textarea {
+    width: 100%;
+    border: none;
+    padding: 4px;
+    outline: none;
+    font-size: 1.2em;
+    font-family: inherit;
+    resize: none;
+}
+
 form.create-note {
     position: relative;
     width: 480px;
