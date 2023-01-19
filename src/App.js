@@ -9,7 +9,7 @@ function App() {
   const[notes,setNotes] = useState([]);
 
   function addNote(note){
-    if(note.content.length>0 && note.title.length>0){
+    if(note.content.length>0){
     setNotes((prevVal)=>{
       return([...prevVal,note]);
     });}
